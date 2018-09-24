@@ -2,7 +2,9 @@
 Simple and powerful Sinhala ( සිංහල ) / English Calendar - Pure JavaScript library
 
   - Version: 1.0.0
-  
+
+![alt text](http://i67.tinypic.com/2me5suu.png)
+
 # Features!
 
   -  SD.Calendar Pure JavaScript library without any plugins.
