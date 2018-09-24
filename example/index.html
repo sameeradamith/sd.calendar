@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SD-Calendar - Sinhala ( සිංහල ) / English Calendar JavaScript library</title>
+
+  <!-- SD-Calender CSS -->
+  <link rel="stylesheet" href="sd-calendar.min.css">
+
+  <style>
+    body {
+      font-family: Helvetica, Arial, sans-serif;
+      background: #e5e5e5;
+      margin: 0;
+    }
+    .container {
+      max-width: 920px;
+      margin: 0 auto;
+    }
+    .content-align {
+      display: flex;
+      justify-content:space-around;
+    }
+
+    .content-align-between {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .header {
+      background: #1b363f;
+      color : #fff;
+      padding: 10px;
+      margin-bottom: 10px;
+    }
+    .footer {
+      margin: 30px 0 10px 0;
+      color: #ea6555;
+      text-align: center;
+    }
+    .main-button {
+      background: #1b363f;
+      color: #eee;
+      border: none;
+      font-weight: bold;
+      font-size: 24px;
+      margin : 20px 0;
+      padding: 10px;
+      min-width: 300px;
+    }
+    .sub-button {
+      background: #fff;
+      color: #000;
+      border: none;
+      font-weight: bold;
+      font-size: 16px;
+      margin : 20px 0;
+      padding: 10px;
+    }
+  </style>
+</head>
+
+
+<body>
+  <div class="header">
+    <div class="container">
+      <div class="content-align-between">
+        <h3>Sinhala ( සිංහල ) / English Calendar JavaScript library</h3>
+        <a target="_blank" href="https://github.com/sameeradamith/sd.calendar"><button class="sub-button" type="submit" >GitHub</button></a>
+      </div>
+    </div>
+  </div>
+
+<div class="container">
+
+  <div class="content-align">
+    <!-- SD-Calender block code -->
+    <div id="sdCalendar" data-sd-lang="si" data-sd-width="320"></div>
+  </div>
+
+  <div class="content-align">
+    <a target="_blank" href="https://github.com/sameeradamith/sd.calendar"><button class="main-button" type="submit" >Download</button></a>
+  </div>
+
+  <div class="footer">
+    Made with ❤ in Sri Lanka - Sameera Damith &copy; 2018
+    <p>damith.sameera1@gmail.com</p>
+  </div>
+
+</div>
+
+<!-- SD-Calender JavaScript -->
+<script type="text/javascript" src="sd-calendar.min.js"></script>
+</body>
+</html>
